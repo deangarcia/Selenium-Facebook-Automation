@@ -19,10 +19,10 @@ public class Main {
 				// Click on hippocamp
 				driver.findElement(
 						By.xpath(".//*[@id='email']"))
-						.sendKeys("dean.c.garcia@gmail.com");
+						.sendKeys("email");
 				driver.findElement(
 						By.xpath(".//*[@id='pass']"))
-						.sendKeys("006641037dg!");
+						.sendKeys("password");
 				driver.findElement(
 						By.xpath(".//*[@id='loginbutton']"))
 						.click();
